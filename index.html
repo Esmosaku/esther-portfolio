@@ -36,13 +36,155 @@
                     research entailed using non-LLMs to improve low cost question-answering. Welcome to my space!
                 </p>
                 <div class="social-links">
-                    <p></p>
+                    <div id="each-social">
+                        <a href = "https://www.linkedin.com/in/emosaku/"><img src="assets/linkedin-icon.jpg" alt="LinkedIn"></a>
+                        <p>LinkedIn</p>
+                    </div>
+                    <div id="each-social">
+                        <a href="https://github.com/Esmosaku"><img src = "assets/github_icon.png" alt="GitHub"></a>
+                        <p>GitHub</p>
+                    </div>
+                    <div id="each-social">
+                        <a href=""><img src="assets/resume-icon.png" alt="Resume"></a>
+                        <p>Resume</p>
+                    </div>
                 </div>
             </section>
-            <section id="about"></section>
-            <section id="projects"></section>
-            <section id="experience"></section>
-            <section id="contact"></section>
+            <section id="about">
+                <h2>About Me</h2>
+                <p>
+                    I am a Computer Science and Economics Student who enjoys building software that connects intelligent systems with real-world data. My interests is at the intersection of software engineering, AI/Ml, and applied problem solving.
+                    I have worked on research involving Medical GraphRAG systems to improve retrieva; accuracy in language models for medical question-answering, and I have developed applications through
+                    research and innovation programs focused on social impact. I am drawn to projects that require structured thinking, ecperimentation, and iteration.
+                    I like turning complex ideas into working systems, especially when they involve data, models, or decision making logic.
+                </p>
+                <h2>Interests</h2>
+                <ul class="interests-lists">
+                    <li>Software Engineering</li>
+                    <li>AI/ML Engineering</li>
+                    <li>Retrieval-Augmented Generation (RAG) systems</li>
+                    <li>Graph-based data systems</li>
+                    <li>Applied Machine Learning</li>
+                    <li>data-driven Applications</li>
+                    <li>Algorithmic Problem Solving</li>
+                    <li>Stem Mentorship</li>
+                </ul>
+            </section>
+            <section id="projects" class="projects-section">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+
+                    <article class="project-card">
+                        <h3 class="project-title">Safe Inbox</h3>
+                        <p class="project-stack">Python, Pandas, Scikit-Learn, Matplotlib</p>
+                        <p cass="project-problem">
+                            Built a supervised machine learning system to detect phishing URLs and improve automated email threat classification. The 
+                            goal was to evaluate how feature engineering and model selection affect real-world detection accuracy at scale. <br>
+                            I processed and cleaned 800K+ records, engineered URL-based features, and trained multiple models including Random Forest, XGBoost, and Logistic Regression. After tuning and comparison, the final model achieved 
+                            ~95% classification accuracy.
+                        </p>
+                        <a href="https://github.com/Esmosaku">Github Link</a>
+                    </article>
+
+                    <article>
+                        <h3 class="project-title">Pandora's Box</h3>
+                        <p class="project-stack">next.js 14, React, Tailwind CSS, Figma</p>
+                        <p class="project-problem">
+                            Collaborated to develop an AI showcase platform during a 48-hour hackathon that unified multiple generative AI models into 
+                            a single interactive interface. The platform allowed users to experiment with text, image, and audio AI tools in one workflow. <br>
+                            I designed responsive UI components in Figma and implemented front-end features in Next.js and React, ensuring smooth integration with GPT-4,
+                            DALL-E, and Whisper APIs through backend endpoints.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/Esmosaku">Github | </a> 
+                            <a href="https://github.com/Esmosaku">Demo</a>
+                        </div>
+                    </article>
+
+                    <article>
+                        <h3 class="project-title">GOFINDME</h3>
+                        <p class="project-stack">MIT App Inventor, Firebase, Figma</p>
+                        <p class="project-problem">
+                            Led development of a mobile safety application focused on kidnapping prevention and rapid emergency response.
+                            The app was built for real-world deployment and recognized as a Regional Winner in the Technovation Challenge (Africa), earning a 
+                            $1000 development grant. <br>
+                            I led a three-person team, designed core app workflow, implemented Firebase-secured login, geolocation tracking, and emergency alert features, and
+                            coordinated iterative testing and refinement.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/Esmosaku">GitHub Link</a>
+                        </div>
+                    </article>
+                </div>
+
+            </section>
+            <section id="experience">
+                <h2>Experiences</h2>
+
+                <h3>Research Experience</h3>
+                <article class="experience-card">
+                    <p><strong>Undergraduate Researcher - Computer Science Department</strong></p>
+                    <p>University of Puget Sound &middot May 2025 - Aug 2025 &middot Tacoma, WA</p>
+                    <p>
+                        Conducted research on graph-based Retrieval-Augmented Generation (GraphRAG) methods to reduce hallucinations in medical language models to reduce
+                        hallucinations in medical language models and improve clinical question-answering reliability. <br>
+                        Built synthetic OCR-style medical datasets and constructed knowledge graphs using Java and Stanford CoreNLP for entity recognition
+                        and structured retrieval. Developed a Python pipeline to query GPT-4o via API and evaluated performance using ROGUE and F1 metrics, targeting a 30% accuracy improvement. <strong>Presented results at IEEE MIT UTRC and the Murdock College Science Research Conference.</strong> 
+                    </p>
+                </article>
+
+                <h3>Industry Experience</h3>
+                <article class="experience-card">
+                    <p><strong>Incoming Software Engineering Intern</strong></p>
+                    <p>Intuit Credit Karma &middot Charlotte, NC &middot Summer 2026</p>
+                </article>
+
+                <h3>Technical and Academic Leadership</h3>
+                <article class="experience-card">
+                    <p><strong>President - Math Club</strong></p>
+                    <p>
+                        Lead planning, programming, and member engagement for community focused events for math and non-math nerds.
+                    </p>
+                </article>
+                <article class="experience-card">
+                    <p><strong>Vice President - Girls Who Code College Loop</strong></p>
+                    <p>
+                        Support technical workshops and community-building initiatives to increase participation and success in computing among women and 
+                        underrepresented students.
+                    </p>
+                </article>
+
+                <h3>Mentorship and Community</h3>
+                <article class="experience-card">
+                    <p><strong>Student Mentor - Technovation Girls</strong></p>
+                    <p>Mentored student teams in app development and problem-solving for social impact technology projects.</p>
+                </article>
+                <article class="experience-card">
+                    <p><strong>Volunteer - Habitat for Humanity</strong></p>
+                    <p>Participate in community service initiatives supporting housing access.</p>
+                </article>
+                <article class="experience-card">
+                    <p><strong>Collegiate Policy Debate</strong></p>
+                    <p>Compete in collegaite-level policy debate with focus on labor policy and economic frameworks.</p>
+                </article>
+                <article class="experience-card">
+                    <p><strong>Campus Tour Guide - University of Puget Sound</strong></p>
+                    <p>Lead interactive campus tours for prospective students and families, communicating academic and student-life information clearly while adapting presentations to different audiences and group sizes.</p>
+                </article>
+
+                <h3>Technical Organizations</h3>
+                <article class="experience-card">
+                    <p>ColorStack &middot Rewriting the Code &middot AI4ALL &middot Code2040 &middot ACM &middot Brilliant Black Minds &middot CodePath</p>
+                </article>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <a href="">Email</a>
+                <a href="">LinkedIn</a>
+            </section>
+            <p>&copy Copyright</p>
+            <p>Esther Mosaku </p>
         </main>
     </body>
 </html>
