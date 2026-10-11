@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Inter, Poppins, Fraunces, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+
 //--font-inter makes the font available as a CSS variable instead of applying it directly.
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter"});
 const poppins = Poppins({
@@ -29,7 +32,9 @@ export default function RootLayout({
       lang = "en"
       className={ `${inter.variable} ${poppins.variable} ${fraunces.variable}, ${jetbrainsMono.variable}`}>
         <body className="bg-background text-foreground font-sans antialiased">
+          <Navbar />
           {children}
+          <Footer/>
         </body>
       </html>
   );
