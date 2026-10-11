@@ -1,11 +1,13 @@
 import Hero from "@/components/sections/Hero";
+import About from "@/components/sections/About";
 
-const sections = ["about", "experience", "projects", "blog", "contact"];
+const sections = ["experience", "projects", "blog", "contact"];
 
 export default function Home() {
   return (
     <main>
       <Hero />
+      <About />
       {sections.map((id) => (
         <section
           key={id}
